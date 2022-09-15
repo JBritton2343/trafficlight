@@ -1,11 +1,19 @@
 import React from "react";
 
 import "../../Styles.css";
-const Lights = ({color, lit, setLit}) =>{
+const lightObj = {
+    borderRadius: '50%',
+    width: '200px',
+    height: '20px',
+    margin: 'auto',
+    marginTop: '7px',
+    border: '3px solid blue'
+}
+function Lights({ color, lit, setLit }) {
     <div>
-        <div className="light" 
-        style={{backgroundColor: color === lit? color: "grey"}}
-        onClick={()=>setLit(color)}></div>
-    </div>
+        <div className="light"
+            style={{ backgroundColor: color === lit ? color : "grey", lightObj }}
+            onClick={() => setLit(color)}></div>
+    </div>;
 }
 export default Lights;
