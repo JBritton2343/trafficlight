@@ -3,12 +3,13 @@ import Lights from "./components/Lights/lights.jsx";
 import "./App.css"
 
 function App() {
-  const colors = ["vermillion", "amber", "emerald"];
-  const [lit, setLit]=useState("vermillion");
+  const colors = ["red", "yellow", "green"];
+  const [lit, setLit]=useState("red");
   return (
     <div className="App">
       {colors.map((color)=>{
         return<Lights color={color} lit={lit} setLit={setLit}/>
+    
       })}
 
       
