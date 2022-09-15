@@ -1,6 +1,5 @@
 import React from "react";
 
-import "../../Styles.css";
 const lightObj = {
     borderRadius: '50%',
     width: '200px',
