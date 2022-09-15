@@ -3,9 +3,9 @@ import "./lights"
 
 const Lights = ({color, lit, setLit}) =>{
     <div>
-        <div className="Light" 
+        <div className="light" 
         style={{backgroundColor: color === lit? color: "grey"}}
-        onClick={()=>setLit(color)}>{color}</div>
+        onClick={()=>setLit(color)}></div>
     </div>
 }
 export default Lights;
