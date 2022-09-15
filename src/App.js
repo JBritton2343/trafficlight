@@ -8,12 +8,13 @@ function App() {
   return (
     <div className="App">
       {colors.map((color)=>{
-        return<Lights color={color} lit={lit} setLit={setLit}/>
+        return(
+        <Lights color={color} lit={lit} setLit={setLit} key={Math.random()}/>);
     
       })}
 
       
-
+      
       
     </div>
   );
