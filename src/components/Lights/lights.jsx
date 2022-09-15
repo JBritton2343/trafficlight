@@ -1,6 +1,6 @@
 import React from "react";
-import "./lights"
 
+import "../../Styles.css";
 const Lights = ({color, lit, setLit}) =>{
     <div>
         <div className="light" 
