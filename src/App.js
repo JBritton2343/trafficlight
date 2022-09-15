@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Lights from "./components/Lights/lights.jsx";
 import "./App.css"
-import "./Styles.css"
+
 
 function App() {
   const colors = ["red", "yellow", "green"];
