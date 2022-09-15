@@ -3,7 +3,7 @@ import React from "react";
 const lightObj = {
     borderRadius: '50%',
     width: '200px',
-    height: '20px',
+    height: '200px',
     margin: 'auto',
     marginTop: '7px',
     border: '3px solid blue'
