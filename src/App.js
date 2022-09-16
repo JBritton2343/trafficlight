@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Lights from "./components/Lights/Lights.jsx";
-import "./App.css"
+import "./App.css";
 
 
 function App() {
