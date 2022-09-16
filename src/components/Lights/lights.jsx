@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css"
 
-function Lights({ color, lit, setLit }) {
+const Lights = ({color, lit, setLit})=>{
     return(
     <div>
         <div className="Light"
